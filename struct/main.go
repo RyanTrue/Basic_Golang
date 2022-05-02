@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-type User struct {
+type user struct {
 	FirstName string
 	LastName string
 	PhoneNumber string
@@ -14,7 +14,7 @@ type User struct {
 }
 
 func main() {
-	user := User {
+	user := user {
 		FirstName: "Trevor",
 		LastName: "Sawler",
 		PhoneNumber: "8 800-55-35-35",

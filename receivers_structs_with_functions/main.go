@@ -3,19 +3,19 @@ package main
 import "log"
 
 type myStruct struct {
-	FirstName string
+	firstName string
 }
 
 func (m *myStruct) printFirstName() string {
-return m.FirstName
+return m.firstName
 }
 
 func main() {
 var myVar myStruct
-myVar.FirstName = "John"
+myVar.firstName = "John"
 
 myVar2 := myStruct{
-	FirstName: "Mary",
+	firstName: "Mary",
 }
 
 log.Println("myVar is set tp", myVar.printFirstName())
